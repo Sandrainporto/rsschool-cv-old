@@ -19,8 +19,10 @@ html {
 	scroll-behavior: smooth; } 
 
 body {
+	background: #b39f7a;
 	font-family: Rubik;
 	color: #707070;
+	font-size: 16px;
 }
 .wrapper {
 	overflow: hidden;
@@ -148,9 +150,10 @@ body {
 }
 
 .menu__link:hover {
-	color: #f0ae12;
+	color: #fff;
 	text-shadow: -0.5px 0px 1.3px rgba(71, 71, 71, 0.9)	;
 	transition-duration: 0.5s;
+
 }
 /************************БУРГЕР***БЕЗ**JS*******(фрилансер по жизни)*********************/
 /*header__button*/
@@ -234,7 +237,7 @@ body {
 
 }
 .avatar__box {
-	border: 7px solid #ffffff;
+	border: 7px solid #b39f7a;
 	border-radius: 50%;
 	width: 220px;
 	height: 220px;
@@ -252,6 +255,8 @@ body {
 .info__name {
 	text-align: center;
 	margin: 0 0 30px 0;
+	text-decoration: underline 5px solid #b39f7a ;
+
 		/*дублировано*/
 } 
 
@@ -259,7 +264,6 @@ body {
 }
 .info__item, .info__link {
 	line-height: 1.2;
-	font-size: 16px;
 	font-weight: 600;
 	color: #363636;
 	margin: 12px 0 0 0px;
@@ -327,14 +331,58 @@ body {
 	color: #363636;
 }
 .info__text-box {
-	font-family: 'Dancing Script', cursive;
 	width: 98%;
 }
-.info__text-box-text {
+.info__text-box-aboutme {
+	font-family: 'Dancing Script', cursive;
 	font-size: 20px;
 	line-height: 1.4;
 	font-weight: 700;
 	color: #707070;
 	text-align: justify;
 	text-indent: 30px;
+}
+
+.info__text-box-text, .info__text-box-list {
+	line-height: 1.2;
+	font-weight: 600;
+	text-align: justify;
+	text-indent: 30px;
+}
+.my-cv__link{
+	display: block;
+	text-align: end;
+	margin-top:-55px ;
+}
+.my-cv__link span{
+	display: inline-block;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 600;
+	color: #707070;
+	margin-top: 35px;
+}
+.info__text-box-list li{
+	margin: 10px;
+	color: #464646;
+}
+
+.info__text-box-list li::before{
+	content: ' ';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #f0ae12;
+	display: inline-block;
+	margin-right: 7px;
+}
+.info__text-box-list li:nth-child(even){
+	color: #707070;
+	padding-left: 45px;
+	font-style: italic;
+	
+}
+.info__text-box-code{
+	background: #f3f4f5;
+	width: 98%;
 }
