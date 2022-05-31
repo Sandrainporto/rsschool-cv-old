@@ -208,3 +208,133 @@ body {
 	}
 }	
 
+/***********************СТРАНИЦА***********************************/
+
+
+.main__container {
+	padding:105px 15px 50px 15px;
+	
+}
+.main__columns {
+	display: flex;
+	flex-wrap: wrap;
+	background: grey;
+	
+}
+/*************ЛЕВАЯ***********************/
+.main__columns-left {
+	flex:1 1 32%;
+	background: #f3f4f5;
+
+}
+.column-left__avatar {
+	display: flex;
+	justify-content: center;
+	padding: 48.5px 0;
+
+}
+.avatar__box {
+	border: 7px solid #ffffff;
+	border-radius: 50%;
+	width: 220px;
+	height: 220px;
+	background: url('/assets/img/my_photo.jpg') 0 0/ 220px 220px no-repeat ;
+	
+}
+.info {
+
+}
+.info__section {
+	margin: 0px 5px 40px 20px;
+	
+}
+
+.info__name {
+	text-align: center;
+	margin: 0 0 30px 0;
+		/*дублировано*/
+} 
+
+.info__list {
+}
+.info__item, .info__link {
+	line-height: 1.2;
+	font-size: 16px;
+	font-weight: 600;
+	color: #363636;
+	margin: 12px 0 0 0px;
+}
+.info__item span {
+	padding-right: 10px;
+
+}
+.info__link {
+/*дублировано*/
+}
+
+.skills li:before{
+	content: ' ';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #f0ae12;
+	display: inline-block;
+	margin-right: 7px;
+}
+.languages li:before{
+	content: ' ';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #f0ae12;
+	display: inline-block;
+	margin-right: 7px;
+}
+/******************ПРАВАЯ	***********************/
+
+.main__columns-right {
+	flex:1 1 67%;
+
+	background:#cfcdb1;
+
+}
+.info__author {
+	
+	padding: 80px 30px 0 50px;
+}
+.name__box {
+	font-family: 'Dancing Script', cursive;
+
+}
+.name__author {
+	font-size: 55px;
+	line-height: 1.2;
+	font-weight: 700;
+	color: #363636;
+}
+.name__author span {
+	color: #f0ae12;
+	display: inline-block;
+}
+.position__box {
+	font-family: 'Dancing Script', cursive;
+	margin: 5px 0 55px 100px;
+}
+.position__title {
+	font-size: 25px;
+	line-height: 1.2;
+	font-weight: 700;
+	color: #363636;
+}
+.info__text-box {
+	font-family: 'Dancing Script', cursive;
+	width: 98%;
+}
+.info__text-box-text {
+	font-size: 20px;
+	line-height: 1.4;
+	font-weight: 700;
+	color: #707070;
+	text-align: justify;
+	text-indent: 30px;
+}
