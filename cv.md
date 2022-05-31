@@ -31,3 +31,21 @@ let result = sum(1, 2);\
 alert( result );
 
 **********
+## **Experience**
+Creation of landings using html and css for practice
+
+******
+## **Education**
+* #### **Universidade do Porto**
+  * *Faculdade de Letras (2016-2017)*
+* #### **Mogilev state A. Kuleshov university**
+  * *The Faculty of Foreign Languages (2014-2019)*
+* ### **Courses**
+  * #### [*The Rolling Scopes School*](https://rs.school/) (*in progress*)
+
+**********
+## **Languages**
+* #### [English (C1)](https://www.efset.org/cert/NbjiCr)
+* #### French (B2)
+* #### Portuguise (A2)
+* #### Russian (Native)
