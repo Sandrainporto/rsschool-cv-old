@@ -19,10 +19,11 @@ html {
 	scroll-behavior: smooth; } 
 
 body {
+	
 	background: #b39f7a;
 	font-family: Rubik;
 	color: #363636;
-	font-size: 16px;
+	font-size: 17px;
 }
 .wrapper {
 	overflow: hidden;
@@ -262,7 +263,7 @@ body {
 
 .info__list {
 }
-.info__item, .info__link {
+.info__item, .info__link  {
 	line-height: 1.2;
 	font-weight: 600;
 	color: #363636;
@@ -317,6 +318,7 @@ body {
 	line-height: 1.2;
 	font-weight: 700;
 	color: #363636;
+	
 }
 .name__author span {
 	color: #f0ae12;
@@ -398,20 +400,39 @@ body {
 	max-width: 49%;
 	padding: 15px 30px;
 }
-/*****************************************/
-.footer{
-
-
-
-}
+/***************ФУТЕР**************************/
 .footer__container {
+}
+.footer__content {
 	display: flex;
-	height: 50px;
+	background: #fff;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
 	flex: 1 1 auto;
+	margin-bottom: -5px;
+	
 
 }
-.footer__content{
-	background: #f3f4f5;
-	flex: 1 1 auto;
+.rsschool-logo {
+	width: 100px;
+	height: 55px;
+	margin-left: 130px;
+}
+.rsschool-link {
+}
+.project__date {
+	line-height: 1.2;
+	font-weight: 600;
+	color: #363636;
+	
+}
+.authors__GitHub {
+	text-align: center;
+	margin-right: 130px;
+
+}
+.GitHub-link img {
+	width: 50px;
 
 }
