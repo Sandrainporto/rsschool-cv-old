@@ -21,7 +21,7 @@ html {
 body {
 	background: #b39f7a;
 	font-family: Rubik;
-	color: #707070;
+	color: #363636;
 	font-size: 16px;
 }
 .wrapper {
@@ -215,7 +215,7 @@ body {
 
 
 .main__container {
-	padding:105px 15px 50px 15px;
+	padding:105px 15px 0px 15px;
 	
 }
 .main__columns {
@@ -241,7 +241,7 @@ body {
 	border-radius: 50%;
 	width: 220px;
 	height: 220px;
-	background: url('/assets/img/my_photo.jpg') 0 0/ 220px 220px no-repeat ;
+	background: url('/assets/img/my_avatar.jpg') 0 0/ 220px 220px no-repeat ;
 	
 }
 .info {
@@ -254,7 +254,7 @@ body {
 
 .info__name {
 	text-align: center;
-	margin: 0 0 30px 0;
+	margin: 0 0 40px 0;
 	text-decoration: underline 5px solid #b39f7a ;
 
 		/*дублировано*/
@@ -266,9 +266,10 @@ body {
 	line-height: 1.2;
 	font-weight: 600;
 	color: #363636;
-	margin: 12px 0 0 0px;
+	margin: 15px 0 0 0px;
 }
-.info__item span {
+.info__item img {
+	max-width: 32px;
 	padding-right: 10px;
 
 }
@@ -304,7 +305,8 @@ body {
 }
 .info__author {
 	
-	padding: 80px 30px 0 50px;
+	padding: 80px 30px 0px 50px;
+
 }
 .name__box {
 	font-family: 'Dancing Script', cursive;
@@ -322,23 +324,25 @@ body {
 }
 .position__box {
 	font-family: 'Dancing Script', cursive;
-	margin: 5px 0 55px 100px;
+	margin: 10px 0 67px 100px;
+
 }
 .position__title {
 	font-size: 25px;
 	line-height: 1.2;
 	font-weight: 700;
 	color: #363636;
+
 }
 .info__text-box {
 	width: 98%;
 }
 .info__text-box-aboutme {
 	font-family: 'Dancing Script', cursive;
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 1.4;
 	font-weight: 700;
-	color: #707070;
+	color: #363636;
 	text-align: justify;
 	text-indent: 30px;
 }
@@ -346,6 +350,7 @@ body {
 .info__text-box-text, .info__text-box-list {
 	line-height: 1.2;
 	font-weight: 600;
+	color: #353030;
 	text-align: justify;
 	text-indent: 30px;
 }
@@ -359,7 +364,7 @@ body {
 	line-height: 1.2;
 	font-size: 18px;
 	font-weight: 600;
-	color: #707070;
+	color: #353030;
 	margin-top: 35px;
 }
 .info__text-box-list li{
@@ -377,12 +382,36 @@ body {
 	margin-right: 7px;
 }
 .info__text-box-list li:nth-child(even){
-	color: #707070;
+	color: #353030;
 	padding-left: 45px;
 	font-style: italic;
 	
 }
 .info__text-box-code{
+	display: flex;
 	background: #f3f4f5;
-	width: 98%;
+	max-width: 98%;
+
+}
+.code{
+	justify-content: start;
+	max-width: 49%;
+	padding: 15px 30px;
+}
+/*****************************************/
+.footer{
+
+
+
+}
+.footer__container {
+	display: flex;
+	height: 50px;
+	flex: 1 1 auto;
+
+}
+.footer__content{
+	background: #f3f4f5;
+	flex: 1 1 auto;
+
 }
