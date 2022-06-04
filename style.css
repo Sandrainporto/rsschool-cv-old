@@ -22,7 +22,7 @@ body {
 	
 	background: #d7d7d7;
 	font-family: Rubik;
-	color: #363636;
+	color: #353030;
 	font-size: 17px;
 }
 .wrapper {
@@ -158,13 +158,13 @@ body {
 
 }
 .info__item a:hover {
-	color: #b39f7a;
+	color: #fff;
 	text-decoration-line: underline;
 	transition-duration: 0.3s;
 
 }
 .my-cv__link span:hover {
-	color: #b39f7a;
+	color: #fff;
 	text-decoration-line: underline;
 	transition-duration: 0.3s;
 
@@ -230,11 +230,14 @@ body {
 
 .main__container {
 	padding:105px 15px 0px 15px;
+
 	
 }
 .main__columns {
 	display: flex;
 	flex-wrap: wrap;
+	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
 	
 }
 /*************ЛЕВАЯ***********************/
@@ -243,45 +246,27 @@ body {
 	background: #f3f4f5;
 
 	
+	
 
+	
+/***************АВАТАР******************************************/
 }
 .column-left__avatar {
-	position: relative;
 	display: flex;
 	justify-content: center;
 	padding: 48.5px 0;
-	z-index: 2;
-
-
 }
-.column-left__avatar:before{
-	position: absolute;
-	top: 0;
-	left: 0;
-	content: '';
-	width: 250px;
-	height: 250px;
-	background: rgb(189, 197, 195);
-	z-index: 1;
-	border-radius: 50%;
-
-}
-
-
 .avatar__box {
-	position: relative;
-	z-index: 3;
-	border: 7px solid #b39f7a;
+	border: 7px solid #43546e;
 	border-radius: 50%;
 	width: 220px;
 	height: 220px;
 	background: url('/assets/img/my_avatar_3.jpg') 0 0/ 220px 220px no-repeat ;
-
 }
 
 
 
-
+/***********************СЕКЦИИ***********************************/
 
 .info {
 
@@ -306,6 +291,7 @@ body {
 } 
 
 .info__list {
+	margin-top: 25px ;
 	padding: 15px 10px;
 	background: #d6ccb8;
 	border-radius: 5%;
@@ -348,16 +334,16 @@ body {
 
 .main__columns-right {
 	flex:1 1 67%;
-
 	background: rgb(189, 197, 195);
 
 }
 .info__author {
 	background: #f3f4f5;
-	margin-top: 80px;
+	margin-top: 50px;
+	margin-bottom: 45px;
 	padding: 50px 30px 0px 50px;
-	border: 1px solid #000;
-		box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
 
 
 }
@@ -374,7 +360,7 @@ body {
 	
 }
 .name__author span {
-	color: #f0ae12;
+	color: #43546e;
 	display: inline-block;
 }
 .position__box {
@@ -391,7 +377,7 @@ body {
 
 }
 .info__text-box {
-	width: 98%;
+	width: 100%;
 }
 .info__text-box-aboutme {
 	font-family: 'Dancing Script', cursive;
@@ -410,23 +396,26 @@ body {
 	text-align: justify;
 	text-indent: 30px;
 }
+.project-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.info__text-box-text{
+}
 .my-cv__link{
-	display: block;
-	text-align: end;
-	margin-top:-55px ;
+	border: 3px dotted #43546e;
+	border-radius: 50%;
+	box-shadow: 0px 5px 10px 2px rgba(28, 30, 31, 0.572);
+
+	
+
 }
-.my-cv__link span{
-	display: inline-block;
-	line-height: 1.2;
-	font-size: 18px;
-	font-weight: 600;
-	color: #353030;
-	margin-top: 35px;
-	margin-left: -5px;
-}
+
 .info__text-box-list li{
 	margin: 10px;
-	color: #464646;
+	color: #353030;
 }
 
 .info__text-box-list li::before{
@@ -439,7 +428,7 @@ body {
 	margin-right: 7px;
 }
 .info__text-box-list li:nth-child(even){
-	color: #353030;
+	color: #464646;
 	padding-left: 45px;
 	font-style: italic;
 	
@@ -447,7 +436,8 @@ body {
 .info__text-box-code{
 	display: flex;
 	background: #f3f4f5;
-	max-width: 98%;
+	max-width: 100%;
+	margin-top: 20px;
 	margin-bottom: -15px;
 	box-shadow: 0px 5px 10px 2px rgba(28, 30, 31, 0.572);
 
@@ -457,11 +447,14 @@ body {
 	justify-content: start;
 	max-width: 49%;
 	padding: 15px 30px;
+	
 }
 /***************ФУТЕР**************************/
 .footer__container {
+	
 }
 .footer__content {
+	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 	display: flex;
 	background: #f3f4f5;
 	flex-wrap: wrap;
@@ -469,8 +462,6 @@ body {
 	align-items: center;
 	flex: 1 1 auto;
 	margin-bottom: -5px;
-	
-
 }
 .rsschool-logo {
 	width: 100px;
