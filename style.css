@@ -150,7 +150,7 @@ body {
 	}
 	
 }
-
+/***************ХАВЕРЫ****************************************/
 .menu__link:hover {
 	color: #fff;
 	text-shadow: -0.5px 0px 1.3px rgba(71, 71, 71, 0.9)	;
@@ -226,19 +226,13 @@ body {
 }	
 
 /***********************СТРАНИЦА***********************************/
-
-
 .main__container {
 	padding:105px 15px 0px 15px;
-
-	
 }
 .main__columns {
 	display: flex;
 	flex-wrap: wrap;
 	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-
-	
 }
 /*************ЛЕВАЯ***********************/
 .main__columns-left {
@@ -292,7 +286,7 @@ body {
 
 .info__list {
 	margin-top: 25px ;
-	padding: 15px 10px;
+	padding: 15px 5px 15px 10px;
 	background: #d6ccb8;
 	border-radius: 5%;
 	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
@@ -304,14 +298,14 @@ body {
 	margin: 10px 0 0 0px;
 }
 .info__item img {
-	max-width: 32px;
+	max-width: 30px;
 	padding-right: 10px;
 
 }
 .info__link {
 /*дублировано*/
 }
-
+/****НАВЫКИ******************************/
 .skills li:before{
 	content: ' ';
 	width: 10px;
@@ -321,6 +315,7 @@ body {
 	display: inline-block;
 	margin-right: 7px;
 }
+/*********ЯЗЫКИ*******************/
 .languages li:before{
 	content: ' ';
 	width: 10px;
@@ -337,6 +332,7 @@ body {
 	background: rgb(189, 197, 195);
 
 }
+/************АВТОР************************/
 .info__author {
 	background: #f3f4f5;
 	margin-top: 50px;
@@ -376,6 +372,7 @@ body {
 	color: #363636;
 
 }
+/*****************ПРОФАЙЛ*******************************/
 .info__text-box {
 	width: 100%;
 }
@@ -396,6 +393,7 @@ body {
 	text-align: justify;
 	text-indent: 30px;
 }
+/******************ОПЫТ**********************************/
 .project-box{
 	display: flex;
 	flex-wrap: wrap;
@@ -405,14 +403,45 @@ body {
 .info__text-box-text{
 }
 .my-cv__link{
+	margin-left: 20px;
 	border: 3px dotted #43546e;
 	border-radius: 50%;
 	box-shadow: 0px 5px 10px 2px rgba(28, 30, 31, 0.572);
 
+}
+@media (max-width: 1086.98px){
+	.project-box{
+	justify-content: center;
+	}
+	.info__text-box-text{
+		margin: 15px 0;
+	}
 	
-
+	
+	
+}
+@media (max-width: 767.98px){
+	.project-box{
+		justify-content: space-between;
+		align-items: center;		
+	}
+		.info__text-box-text{
+			margin: 15px 0;
+		}
+		
+	
+}
+@media (max-width: 729.98px){
+	.project-box{
+		justify-content: center;
+	}
+	
+	
+		
+	
 }
 
+/*****************ОБРАЗОВАНИЕ****************************************/
 .info__text-box-list li{
 	margin: 10px;
 	color: #353030;
@@ -433,6 +462,7 @@ body {
 	font-style: italic;
 	
 }
+/******************КОД*******************************/
 .info__text-box-code{
 	display: flex;
 	background: #f3f4f5;
@@ -484,4 +514,16 @@ body {
 .GitHub-link img {
 	width: 50px;
 
+}
+
+/************ПОРЯДОК**************************/
+
+@media (max-width: 862.98px){
+	
+	
+	
+}
+@media (max-width: 767.98px){
+	
+	
 }
